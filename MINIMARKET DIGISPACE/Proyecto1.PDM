@@ -1,0 +1,438 @@
+[Root]
+Most Recent Package=Instalar
+Most Recent Deploy=Distribución de carpeta 1
+
+
+[Package|Archivo .dep 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+
+[Package|Archivo .dep 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Archivo .dep 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Archivo .dep 1|Files Found]
+stock.mdb=C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb
+
+[Package|Archivo .dep 1|Files Released]
+
+[Package|Archivo .dep 1|Missing Dependency Information]
+
+[Package|Archivo .dep 1|Out-of-Date Dependency Information]
+
+[Package|Archivo .dep 1|Files Added]
+stock.mdb=
+
+[Package|Archivo .dep 1|Files Removed]
+
+[Package|Archivo .dep 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDES.DLL=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Archivos comunes\System\ado\msado15.dll=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+
+[Package|Archivo .dep 1|Configure Registry Files]
+Applicable=No
+
+[Package|Archivo .dep 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Archivo .dep 1|Install Locations]
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=$(AppPath)
+C:\Archivos de programa\Archivos comunes\System\ado\msado15.dll=$(CommonFilesSys)\ADO
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=$(AppPath)
+
+[Package|Archivo .dep 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=Yes
+
+[Package|Archivo .dep 1|Distribution]
+Type=single
+Size=
+Title=mci
+
+[Package|Archivo .dep 1|IconGroups]
+Group0=mci
+PrivateGroup0=Verdadero
+Parent0=$(Programs)
+
+[Package|Archivo .dep 1|mci]
+Icon1=digispace.exe
+Title1=mci
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Archivo .dep 1|DepFile]
+DepCabFile=digispace.CAB
+DepCabRun=digispace.INF
+
+[Package|Archivo .dep 1|Package]
+PackageFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+ProjectFolder=C:\JAVIER\Varios\minimarket\copia STOCK
+ServerSideCab=
+File1=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\digispace.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Deploy|Distribución de carpeta 1|Root]
+Package=Archivo .dep 1
+Handler=PDWizard.FolderDplySubWiz
+Folder=C:\JAVIER\Varios\minimarket\copia STOCK
+
+
+[Package|Instalacion|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+
+[Package|Instalacion|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Instalacion|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Instalacion|Files Found]
+stock.mdb=C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb
+
+[Package|Instalacion|Files Released]
+
+[Package|Instalacion|Missing Dependency Information]
+
+[Package|Instalacion|Out-of-Date Dependency Information]
+
+[Package|Instalacion|Files Added]
+stock.mdb=
+
+[Package|Instalacion|Files Removed]
+
+[Package|Instalacion|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+
+[Package|Instalacion|Configure Registry Files]
+Applicable=No
+
+[Package|Instalacion|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalacion|Install Locations]
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=$(AppPath)
+
+[Package|Instalacion|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+
+[Package|Instalacion|Distribution]
+Type=single
+Size=
+Title=DIGISP@CE
+
+[Package|Instalacion|IconGroups]
+Group0=mci
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Instalacion|mci]
+Icon1=digispace.exe
+Title1=mci
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Instalacion|Package]
+PackageFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+ProjectFolder=C:\JAVIER\Varios\minimarket\copia STOCK
+ServerSideCab=
+File1=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\setup.exe
+File2=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\Setup.Lst
+File3=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\digispace.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Paquete de instalación estándar 1|mci]
+Icon1=digispace.exe
+Title1=mci
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+stock.mdb=
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\system32\Bouton3D.ocx=
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+c:\javier\varios\minimarket\copia stock\stock.mdb=
+C:\JAVIER\Varios\minimarket\copia STOCK\Proyecto1.vbp=
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\WINDOWS\system32\Bouton3D.ocx=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\Proyecto1.vbp=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=$(AppPath)
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\Bouton3D.ocx=$(WinSysPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\Proyecto1.vbp=$(AppPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\Proyecto1.vbp=Yes
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=DIGISPACE
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=DIGISPACE
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+ProjectFolder=C:\JAVIER\Varios\minimarket\copia STOCK
+ServerSideCab=
+File1=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\setup.exe
+File2=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\Setup.Lst
+File3=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\digispace.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Instalar|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+
+[Package|Instalar|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Instalar|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Instalar|Files Found]
+stock.mdb=C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb
+
+[Package|Instalar|Files Released]
+
+[Package|Instalar|Missing Dependency Information]
+C:\WINDOWS\system32\Bouton3D.ocx=
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=
+
+[Package|Instalar|Out-of-Date Dependency Information]
+
+[Package|Instalar|Files Added]
+stock.mdb=
+
+[Package|Instalar|Files Removed]
+
+[Package|Instalar|Files In Project]
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\VB6ES.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\FLXGDES.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=Yes
+C:\WINDOWS\system32\Bouton3D.ocx=Yes
+
+[Package|Instalar|Configure Registry Files]
+Applicable=No
+
+[Package|Instalar|Configure Remote Servers]
+Applicable=No
+
+[Package|Instalar|Install Locations]
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\FLXGDES.DLL=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=$(AppPath)
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=$(AppPath)
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=$(AppPath)
+C:\WINDOWS\system32\Bouton3D.ocx=$(WinSysPath)
+
+[Package|Instalar|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\digispace.exe=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Documents and Settings\lenovo\Escritorio\copia STOCK\stock.mdb=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\digispace.exe=Yes
+C:\JAVIER\Varios\minimarket\copia STOCK\stock.mdb=Yes
+C:\Archivos de programa\Microsoft Office\Office12\EXCEL.EXE=Yes
+
+[Package|Instalar|Distribution]
+Type=single
+Size=
+Title=DIGISP@CE
+
+[Package|Instalar|Package]
+PackageFolder=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete
+ProjectFolder=C:\JAVIER\Varios\minimarket\copia STOCK
+ServerSideCab=
+File1=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\setup.exe
+File2=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\Setup.Lst
+File3=C:\Documents and Settings\lenovo\Escritorio\copia STOCK\Paquete\digispace.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Instalar|IconGroups]
+Group0=DIGISPACE
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Instalar|DIGISPACE]
+Icon1=digispace.exe
+Title1=DIGISPACE
+StartIn1=$(AppPath)
+Key1=Icon1
